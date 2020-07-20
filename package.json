@@ -1,0 +1,83 @@
+{
+	"name": "laravel-smart-command",
+	"displayName": "Laravel Smart Command",
+	"description": "Smart Command for Laravel",
+	"icon": "images/icon.png",
+	"publisher": "aibnuhibban",
+	"repository": "https://github.com/AIbnuHIbban/vscode-codeigniter-spark",
+	"version": "0.1.14",
+	"engines": {
+		"vscode": "^1.44.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "laravel.migration",
+				"title": "Laravel: Create Migration"
+			},
+			{
+				"command": "laravel.controller",
+				"title": "Laravel: Create Controller"
+			},
+			{
+				"command": "laravel.model",
+				"title": "Laravel: Create Model"
+			},
+			{
+				"command": "laravel.seeder",
+				"title": "Laravel: Create Seeder"
+			},
+			{
+				"command": "laravel.migrate",
+				"title": "Laravel: Migrate"
+			},
+			{
+				"command": "laravel.migrate.rollback",
+				"title": "Laravel: Migrate Rollback"
+			},
+			{
+				"command": "laravel.serve.start",
+				"title": "Laravel: Start Server"
+			},
+			{
+				"command": "laravel.serve.stop",
+				"title": "Laravel: Stop Server"
+			},
+			{
+				"command": "laravel.serve.restart",
+				"title": "Laravel: Restart Server"
+			},
+			{
+				"command": "laravel.router",
+				"title": "Laravel: Create Route"
+			},
+			{
+				"command": "laravel.seed",
+				"title": "Laravel: Run Seed"
+			}
+		]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.44.0",
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^7.0.2",
+		"@types/node": "^13.11.0",
+		"eslint": "^6.8.0",
+		"glob": "^7.1.6",
+		"mocha": "^7.1.2",
+		"typescript": "^3.8.3",
+		"vscode-test": "^1.3.0"
+	}
+}
