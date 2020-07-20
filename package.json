@@ -4,7 +4,7 @@
 	"description": "Smart Command for Laravel",
 	"icon": "images/icon.png",
 	"publisher": "aibnuhibban",
-	"repository": "https://github.com/AIbnuHIbban/vscode-codeigniter-spark",
+	"repository": "https://github.com/AIbnuHIbban/vscode-laravel-smart-command",
 	"version": "0.1.14",
 	"engines": {
 		"vscode": "^1.44.0"
