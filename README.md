@@ -2,6 +2,8 @@
 </p>
 <p align="center"><b>Laravel Smart Commands for Laravel within Visual Studio Code</b></p>
 
+<p>Support For <strong>Laravel 8</strong></p>
+
 ## Features
 
  - Create Controller

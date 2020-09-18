@@ -1,9 +1,12 @@
 # Change Log
 
-All notable changes to the "codeigniter-command" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+All notable changes to the "Laravel Smart Command" extension will be documented in this file.
 
 ## [Unreleased]
 
 - Initial release
+
+## [0.2] - 2020-09-19
+### Added
+- Support for Laravel 8
+- Fix Bugs and Typo

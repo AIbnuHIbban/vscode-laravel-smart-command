@@ -16,14 +16,8 @@ use Illuminate\\Support\\Facades\\DB;
 class ${val} extends Seeder{
     
     public function run(){
-        // Option 1
-        // $data = [
-            
-        // ];
-        // DB::table('${table_name}')->create($data);
-
         // Option 2
-        DB::table('${table_name}')->create([
+        DB::table('${table_name}')->insert([
             
         ]);
     }

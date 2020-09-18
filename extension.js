@@ -47,9 +47,6 @@ function activate(context) {
 	let laravel_run_seed	= vscode.commands.registerCommand('laravel.seed', function () {
 		router(vscode,fs,pathwork,path)
 	})
-	// let laravel_livewire_component		= vscode.commands.registerCommand('laravel.livewire.component', function () {
-	// 	router(vscode,fs,pathwork,path)
-	// })
 	
 	context.subscriptions.push(laravel_migration);
 	context.subscriptions.push(laravel_controller);
